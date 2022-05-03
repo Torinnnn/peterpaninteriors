@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');           
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    overflow: hidden; 
+}
+.header{
+    width: 100%;
+    height: 20vh;
+    margin:0px 10px 0px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background:#806543;
+    position: sticky;
+    top: 0;
+    z-index: 13;
+}
+.logo-text{
+    font-family: 'tangerine';
+    font-size: 50px;
+    color: rgb(19, 19, 50);
+    font-weight: 300;
+    
+    
+    
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.nav-items li{
+    list-style: none;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgb(19, 19, 50);
+    font-family:' comorant garamond';
+}
+
+.background{
+background-image: url('./images/luxury\ interior\ design\ website.jpg'); 
+background-position: center;
+background-size: contain;
+height: 100%;
+width: 100%;
+
+}
+
+.vertical{
+    border-left: 2px solid rgb(19, 19, 50);
+    height: 20px;
+    padding-right: 30px;
+}
+
+ 
+   
+
+.blur{
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.2);;
+    backdrop-filter: blur(10px);
+}
+
+.overlay{
+    width: 50%;
+    height: 50vh;
+   position: relative;
+   top: 15%;
+   left: 24%;
+    background: rgba(19,19,50,0.9);
+    border-radius: 10px;
+}
+.overlay-about{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'comorant garamond';
+    font-size: 30px;
+    padding: 30px 10px 10px;
+    color: #806543;
+}
+.overlay-text{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'comorant garamond' ;
+    color:#806543; 
+    padding: 10px 30px 0px ;
+}
+.overlay-text2{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'comorant garamond' ;
+    color:#806543; 
+    padding: 10px 30px ;
+}

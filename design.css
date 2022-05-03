@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');           
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    
+}
+.header{
+    width: 100%;
+    height: 20vh;
+    margin:0px 10px 0px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background:#806543;
+    position: sticky;
+    top: 0;
+    
+}
+.logo-text{
+    font-family: 'tangerine';
+    font-size: 50px;
+    color: rgb(19, 19, 50);
+    font-weight: 300;
+    
+    
+    
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.nav-items li{
+    list-style: none;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgb(19, 19, 50);
+    font-family:' comorant garamond';
+}
+.background{
+background-image: url('./images/luxury\ interior\ design\ website.jpg'); 
+background-position: center;
+background-size: contain;
+height: 100vh;
+width: 100vw;
+
+}
+
+.vertical{
+    border-left: 2px solid rgb(19, 19, 50);;
+    height: 20px;
+    padding-right: 30px;
+}
+.section1{
+    display: flex;
+    background: rgb(19, 19, 50);
+    width: 100%;
+    
+}
+
+.section1-img{
+    width: 50%;
+    height: 100%;
+    margin: 30px;
+    border-radius: 10px;
+    
+}
+.section1-details{
+    margin: 60px;
+    
+}
+
+@keyframes textup{
+    from{margin-top: 100%;
+        opacity: 1;
+    }
+    to{margin-bottom: 50%;
+    opacity: 1;}
+}
+
+.hastings{
+font-family: 'comorant garamond';
+font-size: 25px;
+color: #806543;
+margin-bottom: 30px;
+text-transform: uppercase;
+animation: textup 1s linear;
+}
+
+.lorem-section1{
+    text-align:left;
+    font-size: 16px;
+    padding:15px 50px 30px 0px;
+    letter-spacing: 0.1px;
+    font-family: 'comorant garamond';
+    color: #806543;
+    animation: textup 2s linear;
+}
+
+.section-link{
+    color: #806543;
+    font-size: 16px;
+    animation: textup 3s linear;
+
+}
+.section-link:hover{
+    color: #ffffff;
+    
+}
+
+
+
+
+
+.section2{
+    display: flex;
+    background: rgb(19, 19, 50);
+    width: 100%;
+    
+}
+
+.section2-img{
+    width: 50%;
+    height: 100%;
+    margin: 30px;
+    border-radius: 10px;
+    
+}
+.section2-details{
+    margin: 60px;
+}
+
+.duke{
+font-family: 'comorant garamond';
+font-size: 25px;
+color: #806543;
+margin-bottom: 30px;
+text-transform: uppercase;
+animation: textup  linear;
+
+}
+
+.lorem-section2{
+    text-align:left;
+    font-size: 16px;
+    padding:15px 50px 30px 0px;
+    letter-spacing: 0.1px;
+    font-family: 'comorant garamond';
+    color: #806543;
+    animation: textup  linear;
+}
+
+.section-link{
+    color: #806543;
+    font-size: 16px;
+    animation: textup  linear;
+
+}
+.section-link:hover{
+    color: #ffffff;
+}
+
+
+
+
+
+
+.section3{
+    display: flex;
+    background: rgb(19, 19, 50);
+    width: 100%;
+    
+}
+
+.section3-img{
+    width: 50%;
+    height: 100%;
+    margin: 30px;
+    border-radius: 10px;
+    
+}
+.section3-details{
+    margin: 60px;
+}
+
+.duchess{
+font-family: 'comorant garamond';
+font-size: 25px;
+color: #806543;
+margin-bottom: 30px;
+text-transform: uppercase;
+}
+
+.lorem-section3{
+    text-align:left;
+    font-size: 16px;
+    padding:15px 50px 30px 0px;
+    letter-spacing: 0.1px;
+    font-family: 'comorant garamond';
+    color: #806543;
+}
+
+.section-link{
+    color: #806543;
+    font-size: 16px;
+
+}
+.section-link:hover{
+    color: #ffffff;}
